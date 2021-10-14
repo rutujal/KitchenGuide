@@ -1,0 +1,46 @@
+h3{
+    padding-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: var(--cursive-font);
+    font-size: 28px;
+    line-height: 75px;
+    margin: 0 0 5px;
+    color: #40b48e;
+}
+h3:hover{
+    color:var(--main-color);
+}
+.item-img{
+    height: 250px;
+    margin-bottom: 0px;
+    width:250px;
+    padding-left:50px;
+  
+}
+.item-btn{
+    margin-bottom: 60px;
+    margin-left: 50px;
+    font-size: 14px;
+}
+.image_div{
+    float: left;
+    margin-right: 10px;
+    max-width: 20%;
+    max-height: 20%;
+}
+@media screen and (max-width: 960px) {
+	.image_div{
+		max-width: 45%;
+	}
+}
+@media screen and (max-width: 768px) {
+	.image_div{
+		max-width: 50%;
+	}
+}
+@media screen and (max-width: 600px) {
+	.image_div{
+		max-width: 100%;
+	}
+}

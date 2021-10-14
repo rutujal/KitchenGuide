@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+    --main-color:#eaa023;
+    --dark:#0c1023;
+    --dark-light:#191f3a;
+    --white:#ffffff;
+    --white-light:#c8c8c8;
+    --shadow:0 0 15px rgba(0,0,0,0.25);
+    --cursive-font:"Dancing Script",cursive;
+    scroll-behavior: smooth;
+    --poppins-font:'Poppins', sans-serif;
+}
+.main-class{
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-top-highlight-colr:transparent;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 300;
+    color: var(--white-light);
+}
+img{
+    vertical-align: middle;
+    max-width: 100%;
+
+}
+
+ul{
+    list-style: none;
+}
+h1{
+    font-weight: 700;
+    color:var(--white);
+
+}
+h2{
+    font-weight: 600;
+    color: var(--white);
+}
+h3,h4,h5,h6{
+   font-weight: 500;
+   color: var(--white);
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.justify-content-between{
+  justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+.min-vh-100{
+    min-height: 100vh;
+}
+
+.mybtn{
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 30px;
+    text-transform: capitalize;
+    background-color:transparent;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-family: inherit;
+    color: var(--main-color);
+    line-height: 1.5;
+    user-select: none;
+    border: none;
+    border: 2px solid var(--main-color);
+
+}
+.mybtn:hover{
+    background-color:var(--main-color);
+    color: var(--white);
+}

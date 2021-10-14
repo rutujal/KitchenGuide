@@ -1,0 +1,42 @@
+
+.navbg{
+    background-color:black;
+}
+.mynav{
+    background-color:black;
+    height:50px;
+    
+}
+.mytog{
+    background-color:var(--main-color);
+    
+}
+.heading{
+    font-size: 40px;
+    box-shadow: var(--shadow);
+    font-family: var(--cursive-font);
+    font-weight: 400;
+    color:white;
+    text-shadow: 0 0.2rem 5rem rgb(119 115 115);
+    text-transform: uppercase;
+}
+.NavLink:hover{
+    color: var(--main-color);
+}
+.cfont{
+    font-family: var(--cursive-font);
+    font-size: 30px;
+    font-weight: 300;
+    padding-right: 10px;
+
+}
+
+.main-class1{
+    background-color: var(--dark-light);
+}
+
+.sticky{
+    position: fixed;
+    top:0;
+    width:100%;
+}
